@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>一次性搞清楚substr和substring</title>
+</head>
+<body>
+<script>
+    var str = 'hello,world!'
+    var cutSubStr = str.substr(3,7)//lo,worl   substr()中第二个参数是返回长度（包含的字符串个数）
+    var cutSubString = str.substring(3,7)//lo,w  substring() 中第二个参数是返回结束位置的索引。
+    console.log(cutSubStr);
+    console.log(cutSubString);
+</script>
+</body>
+</html>
